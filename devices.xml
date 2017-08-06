@@ -1,11 +1,19 @@
-[chavdar.toilet]
-url=
-port=
-login=
-password=
+<devices>
 
-[dekabrystov.toilet]
-url=
-port=
-login=
-password=
+    <device>
+        <name>chavdar door main</name>
+        <url>212.00.56.52</url>
+        <port>80</port>
+        <login>root</login>
+        <password>root</password>
+    </device>
+
+    <device>
+        <name>chavdar toilet</name>
+        <url>212.00.56.52</url>
+        <port>80</port>
+        <login>root</login>
+        <password>root</password>
+    </device>
+
+</devices>
